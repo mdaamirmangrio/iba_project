@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Carted Products</title>
+    <!-- JS link for icons -->
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- container (header) for to show in cart section or page -->
+<body>
+    <div class="container">
+        <div class="header1">
+            <img class="logo" src="pictures/logo2.png" alt="logo">
+           <div class="submit">
+            <input type="search" id="bookinput" name="data" placeholder="Search..." class="form">
+            <button type="submit" class="button" id="fetchbtn">Search</button>
+        </div>
+         </div>
+        <div class="header2">
+           <button onclick="openPage('login.html')" id="log">Login</button>
+            <h1 class="mainhead">MA E-LIBRARY</h1>
+            <p>MA Online Book Store</p>
+
+        </div>
+    </div>
+    <!-- nav bar -->
+    <nav class="nav">
+        <a class="item" href="#">Home</a>
+        <div class="dropdown">
+            <p class="item">Books▾</p>
+            <div class="dropdown-content">
+            <a class="adrop" href="#">Islamic</a>
+            <a class="adrop" href="#">Education</a>
+            <a class="adrop" href="#">Free</a>
+            <a class="adrop" href="#">Novels</a>
+            
+            </div>
+          </div>
+        <a class="item" href="#">Genres</a>
+        <a class="item" href="#">Authors</a>
+        <a class="item" href="#">Trending</a>
+        <a class="item" href="#">Free Books</a>
+
+        <button onclick="openPage('index.html')" class="cartbtn" type="button"> <ion-icon name="chevron-back-circle-outline"></ion-icon> Back
+        </button>      
+</nav> 
+<hr>
+<h2 class="heading">Cart </h2>
+ <section id="container" class="section1">
+    <!-- cart Books will be dynamically loaded here -->
+</section>
+
+
+<script src="cart.js"></script>
+</body>
+</html>

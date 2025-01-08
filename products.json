@@ -1,0 +1,99 @@
+ [
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 200,
+      "image": "pictures/1984.jpg",
+      "readUrl": "https://example.com/read/1984",
+      "downloadUrl": "https://example.com/download/1984"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 20,
+      "image": "pictures/To Kill a Mockingbird.jpg",
+      "readUrl": "https://example.com/read/to-kill-a-mockingbird",
+      "downloadUrl": "https://example.com/download/to-kill-a-mockingbird"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 150,
+      "image": "pictures/The Great Gatsby.jpg",
+      "readUrl": "https://example.com/read/the-great-gatsby",
+      "downloadUrl": "https://example.com/download/the-great-gatsby"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 230,
+      "image": "pictures/Pride and Prejudice.jpg",
+      "readUrl": "https://example.com/read/pride-and-prejudice",
+      "downloadUrl": "https://example.com/download/pride-and-prejudice"
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "price": 240,
+      "image": "pictures/Moby Dick.jpg",
+      "readUrl": "https://example.com/read/moby-dick",
+      "downloadUrl": "https://example.com/download/moby-dick"
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": 30,
+      "image": "pictures/War and Peace.jfif",
+      "readUrl": "https://example.com/read/war-and-peace",
+      "downloadUrl": "https://example.com/download/war-and-peace"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 210,
+      "image": "pictures/The Catcher in the Rye.jpg",
+      "readUrl": "https://example.com/read/the-catcher-in-the-rye",
+      "downloadUrl": "https://example.com/download/the-catcher-in-the-rye"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "price": 234,
+      "image": "pictures/The Lord of the Rings.jpg",
+      "readUrl": "https://example.com/read/the-lord-of-the-rings",
+      "downloadUrl": "https://example.com/download/the-lord-of-the-rings"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 150,
+      "image": "pictures/The Hobbit.jpg",
+      "readUrl": "https://example.com/read/the-hobbit",
+      "downloadUrl": "https://example.com/download/the-hobbit"
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "price": 120,
+      "image": "pictures/Jane Eyre.jpg",
+      "readUrl": "https://example.com/read/jane-eyre",
+      "downloadUrl": "https://example.com/download/jane-eyre"
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "price": 250,
+      "image": "pictures/Crime and Punishment.webp",
+      "readUrl": "https://example.com/read/crime-and-punishment",
+      "downloadUrl": "https://example.com/download/crime-and-punishment"
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "price": 90,
+      "image": "pictures/Wuthering Heights.jpg",
+      "readUrl": "https://example.com/read/wuthering-heights",
+      "downloadUrl": "https://example.com/download/wuthering-heights"
+    }
+  
+  ]

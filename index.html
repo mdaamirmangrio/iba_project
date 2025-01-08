@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>MA E-Library</title>
+ <link rel="stylesheet" href="style.css">
+ <!-- JS link for icons -->
+ <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+
+</head>
+<body>
+    <!-- container (header) -->
+      <div class="container">
+        <div class="header1">
+            <img class="logo" src="pictures/logo2.png" alt="logo">
+           <div class="submit">
+            <input type="search" id="bookinput" name="data" placeholder="Search Book here..." class="form">
+            <button  type="submit" class="button" id="fetchbtn">Search</button>
+        </div>
+         </div>
+        <div class="header2">
+           <button onclick="openPage('login.html')" id="log">Login</button>
+            <h1 class="mainhead">MA E-LIBRARY</h1>
+            <p>MA Online Book Store</p>
+
+        </div>
+    </div>
+    <nav class="nav">
+        <a class="item" href="index.html">Home</a>
+        <div class="dropdown">
+            <p class="item">Books▾</p>
+            <div class="dropdown-content">
+            <a  onclick="scrollToEducation()" class="adrop" >Education</a>
+            <a class="adrop" href="#">Islamic</a>
+            <a class="adrop" href="#">Free</a>
+            <a class="adrop" href="#">Novels</a>
+            
+            </div>
+          </div>
+        <a class="item" href="#">Genres</a>
+        <a class="item" href="#">Authors</a>
+        <a class="item" href="#">Trending</a>
+        <a class="item" href="#">Free Books</a>
+        <!-- cart button in nav bar -->
+        <button onclick="openPage('cart.html')" class="cartbtn" type="button"><ion-icon name="cart-outline"></ion-icon> Cart
+        </button>
+        <!-- ----------------- -->
+        
+</nav>
+<hr>
+<main class="main-section">
+
+
+<h2 class="heading">Books </h2>
+
+<!-- section 1 (Books) -->
+ <!-- container 1 -->
+
+ <section id="container" class="section1">
+    <!-- Books will be dynamically loaded here -->
+</section>
+
+    <hr id="hrbreak">
+
+    <!-- section 2 (Education) -->
+     <!-- container 2 -->
+    <h2 id="eduheading" class="heading">Education</h2>
+    <section id="section2" class="section2" >
+    <div class="container2">
+            <img class="primg2" src="pictures/wren and martin.jpg" alt="Image">
+            <h3>English Grammar</h3>
+            <h3>350$</h3>
+            <div class="btn">
+                <button class="get2">Read</button>
+                <button class="get2">Download</button>
+             </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+         <div class="container2">
+            <img class="primg2" src="pictures/One Classroom at a Time.jfif" alt="Image">
+            <h3>1 Classroom @ Time</h3>
+            <h3>30$</h3>
+            <div class="btn2">
+                <button class="get2">Read</button>
+                <button class="get2">Download</button>
+             </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+         <div class="container2">
+            <img class="primg2" src="pictures/Equality for women in science.jfif" alt="Image">
+            <h3>women in science</h3>
+            <h3>76$</h3>
+            <div class="btn2">
+                <button class="get2">Read</button>
+                <button class="get2">Download</button>
+             </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+         <div class="container2">
+            <img class="primg2" src="pictures/Discover Maths.jfif" alt="Image">
+            <h3>Discover Maths</h3>
+            <h3>70$</h3>
+            <div class="btn2">
+                <button class="get2">Read</button>
+                <button class="get2">Download</button>
+             </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+         <div class="container2">
+            <img class="primg2" src="pictures/Maths for cambridge.jfif" alt="Image">
+            <h3>Maths for Cambridge</h3>
+            <h3>85$</h3>
+            <div class="btn2">
+                <button class="get2">Read</button>
+                <button class="get2">Download</button>
+             </div>
+            <button class="cart">Add to Cart</button>
+        </div>
+    </section>
+         <!-- contact section -->
+          <!-- contact form container -->
+        <section class="contact-section">
+            <div class="contact-form-container">
+                <h1>Contact Us</h1>
+                <form action="/submit" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>         
+</main>
+
+<!-- section 3 for footer -->
+<section class="section3">
+    <footer class="footer">
+
+            <div class="footersec">
+            <h3>MA E LIBRARY</h3>
+            <a href="">Vision</a>
+            <a href="">Partener with us</a>
+            <a href="">carrers</a>
+            <a href="">Blog</a>
+            <a href="">Terms and service</a>
+            <a href="">Donte</a>
+            <a href="">products</a>
+            </div>
+
+            <div class="footersec">
+                <h3>Discover</h3>
+                <a href="">Home</a>
+                <a href="">Books authors</a>
+                <a href="">Subject</a>
+                <a href="">collections</a>
+                <a href="">advace search</a>
+            </div>
+
+            <div class="footersec">
+                <h3>Help</h3>
+                <a href="">Help Center</a>
+                <a href="">Report a problem</a>
+                <a href="">suggesion edits</a>
+                <a href="">add a book</a>
+                <a href="">release book</a>
+            </div>
+
+            <div class="footersec">
+                <h3>Website language</h3>
+                <a href="">English</a>
+                <a href="">Arabic</a>
+                <a href="">Urdu</a>
+                <a href="">Hindi</a>
+                <a href="">Chinees</a>    
+            </div>
+    </footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+

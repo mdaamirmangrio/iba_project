@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Details</title>
+    <!-- JS link for Icons -->
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+<style>
+    
+
+/* login page container or section CSS */
+.logindetail  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+.loginpage {
+display: flex;
+flex-direction: column;
+background-color: white;
+border: 0.5px solid black;
+height: 350px;
+width: 330px;
+justify-content: center;
+justify-items: center;
+padding: 20px;
+border-radius: 10px;
+gap: 10px;
+font-size: 20px;
+font-weight: bold;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+.loginbutton {
+    background-color: rgb(17, 169, 17);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+</style>
+<!-- header to show in login page -->
+<div class="container">
+    <div class="header1">
+        <img class="logo" src="pictures/logo2.png" alt="logo">
+       <div class="submit">
+        <input type="search" id="bookinput" name="data" placeholder="Search..." class="form">
+        <button type="submit" class="button" id="fetchbtn">Search</button>
+    </div>
+     </div>
+    <div class="header2">
+        <h1 class="mainhead">MA E-LIBRARY</h1>
+        <p>MA Online Book Store</p>
+
+    </div>
+</div>
+<!-- nav bar -->
+<nav class="nav">
+    <a class="item" href="#">Home</a>
+    <div class="dropdown">
+        <p class="item">Books▾</p>
+        <div class="dropdown-content">
+        <a class="adrop" href="#">Islamic</a>
+        <a class="adrop" href="#">Education</a>
+        <a class="adrop" href="#">Free</a>
+        <a class="adrop" href="#">Novels</a>
+        
+        </div>
+      </div>
+    <a class="item" href="#">Genres</a>
+    <a class="item" href="#">Authors</a>
+    <a class="item" href="#">Trending</a>
+    <a class="item" href="#">Free Books</a>
+
+    <button onclick="openPage('cart.html')" class="cartbtn" type="button"><ion-icon name="cart-outline"></ion-icon> Cart
+    </button>
+    
+</nav>
+<!-- login details container -->
+    <h3 style="margin-left: 2em; border-left: 4px solid red; padding-left: 2px;" >Please Login Your Account:</h3>
+<div class="logindetail">
+   
+    <div class="loginpage">
+        <h2>Login:</h2>
+        <label>Email:</label>
+        <input type="text" class="input"  name="emailadress" placeholder="Enter your Email">
+        <label>Password:</label>
+        <input type="password" class="input" name="password" id="passwordmanager" placeholder="Enter Password">
+        <button type="submit" class="loginbutton" id="loginbut">Login</button>
+
+    </div>
+</div>
+
+<!-- footer section to show in login page -->
+<section class="section3">
+    <footer class="footer">
+
+            <div class="footersec">
+            <h3>MA E LIBRARY</h3>
+            <a href="">Vision</a>
+            <a href="">Partener with us</a>
+            <a href="">carrers</a>
+            <a href="">Blog</a>
+            <a href="">Terms and service</a>
+            <a href="">Donte</a>
+            <a href="">products</a>
+            </div>
+
+            <div class="footersec">
+                <h3>Discover</h3>
+                <a href="">Home</a>
+                <a href="">Books authors</a>
+                <a href="">Subject</a>
+                <a href="">collections</a>
+                <a href="">advace search</a>
+            </div>
+
+            <div class="footersec">
+                <h3>Help</h3>
+                <a href="">Help Center</a>
+                <a href="">Report a problem</a>
+                <a href="">suggesion edits</a>
+                <a href="">add a book</a>
+                <a href="">release book</a>
+
+            </div>
+
+            <div class="footersec">
+                <h3>Website language</h3>
+                <a href="">English</a>
+                <a href="">Arabic</a>
+                <a href="">Urdu</a>
+                <a href="">Hindi</a>
+                <a href="">Chinees</a>
+            </div>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
