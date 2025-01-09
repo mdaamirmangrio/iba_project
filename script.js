@@ -97,7 +97,6 @@ function renderBooks(books) {
   });
 }
 
-alert('please open in live server to fetch data')
 fetch('products.json')
   .then(response => {
     if (!response.ok) {
