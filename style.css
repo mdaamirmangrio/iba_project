@@ -3,7 +3,8 @@ html {
   }
 body {
     margin: 0;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #f4f4f4;
 
 }
@@ -15,7 +16,8 @@ body {
     gap: none;
     margin: none;
     height:240px;
-    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     gap: 4em;
 }
 
@@ -27,6 +29,7 @@ body {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin:0px;
+    overflow: hidden ;
 }
 #log {
     float: right;
@@ -178,9 +181,10 @@ body {
     /* cartt utton in nav bar */
     .cartbtn {
         font-size: 20px;
-        margin-left: 22em;
+        margin-left: auto;
         background-color: #d4501b;
         color: white;
+        margin-right: 2em;
         border: none;
         padding: 5px;
         width: 5em;
@@ -439,6 +443,15 @@ form {
 }
 
 
+
+@media (min-width: 768px) {
+    body {
+        width: auto;
+       /* Two columns for tablets */
+    }
+  }
+  
+  
 
 
 
