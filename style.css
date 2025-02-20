@@ -16,8 +16,7 @@ body {
     gap: none;
     margin: none;
     height:240px;
-    max-width: 100%;
-    overflow: hidden;
+    width: 100%;
     gap: 4em;
 }
 
@@ -29,7 +28,6 @@ body {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin:0px;
-    overflow: hidden ;
 }
 #log {
     float: right;
@@ -178,13 +176,11 @@ body {
         padding-left: 7px;
     }
 
-    /* cartt utton in nav bar */
+    /* cartt button in nav bar */
     .cartbtn {
         font-size: 20px;
-        margin-left: auto;
         background-color: #d4501b;
         color: white;
-        margin-right: 2em;
         border: none;
         padding: 5px;
         width: 5em;
@@ -443,10 +439,6 @@ form {
 }
 
 
-
-
-  
-  
 
 
 
